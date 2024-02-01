@@ -6,9 +6,9 @@ function sendMessage()
   if (message !== '') 
   { 
     const newMessageElement = document.createElement('div'); 
-    let result = text2.concat("you : ", message);
-    result.concat("you : ", message);
-    newMessageElement.innerText = result
+    const text2 = "you : ";
+    text2.concat(message);
+    newMessageElement.innerText = let result = text2
     messageContainer.appendChild(newMessageElement); 
     messageInput.value = ''; 
   } 
